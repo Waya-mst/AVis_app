@@ -1,0 +1,13 @@
+// backend/tsconfig.json
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true,
+    // …
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

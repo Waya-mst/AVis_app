@@ -1,2 +1,5 @@
 avis_app/
 data/raw/
+
+node_modules/
+backend/node_modules/
