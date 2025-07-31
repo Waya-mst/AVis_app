@@ -3,7 +3,7 @@ import path from 'path';
 import { Node } from '../models/Node';
 import { Link } from '../models/Link';
 
-const DATA_DIR = path.resolve(__dirname, '../../data/processed');
+const DATA_DIR = path.resolve(__dirname, '../../../data/processed');
 
 export async function loadGraph(threshold: number): Promise<{
   nodes: Node[];

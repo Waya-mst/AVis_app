@@ -3,7 +3,7 @@ import cors from 'cors';
 import graphRouter from './routes/graph';
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // ミドルウェア設定
 app.use(cors());

@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    // 生成する JS のターゲット
+    "target": "ES2020",
+    // モジュールシステム
+    "module": "ESNext",
+    // import.meta.env などを node_modules から解決
+    "moduleResolution": "node",
+    // JSX を自動変換（React 17+）
+    "jsx": "react-jsx",
+    // ソースコードのルート
+    "rootDir": "src",
+    // ビルド出力先（必要なら）
+    "outDir": "dist",
+    // 厳格モードで型チェックを強化
+    "strict": true,
+    // CommonJS 互換の import/export を許可
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    // 型定義探索ルート
+    "typeRoots": [
+      "node_modules/@types",
+      "src/types"
+    ],
+    // ファイル名の大文字小文字を厳格に
+    "forceConsistentCasingInFileNames": true,
+    // 外部型チェックをスキップ（ビルド高速化）
+    "skipLibCheck": true
+  },
+  "include": [
+    "src",
+    "src/vite-env.d.ts",
+    "src/components/react-slider.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
